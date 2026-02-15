@@ -10,9 +10,22 @@
 		BA5FF0192F4137EA0010F9EE /* Space Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BA5FF0382F413F310010F9EE /* Exceptions for "Space Travel" folder in "Space Travel" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Space-Travel-Info.plist",
+			);
+			target = BA5FF0182F4137EA0010F9EE /* Space Travel */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BA5FF01B2F4137EA0010F9EE /* Space Travel */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BA5FF0382F413F310010F9EE /* Exceptions for "Space Travel" folder in "Space Travel" target */,
+			);
 			path = "Space Travel";
 			sourceTree = "<group>";
 		};
